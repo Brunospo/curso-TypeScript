@@ -5,8 +5,8 @@ let g = 10; //eslint-disable-line
 const num = 10;
 
 //fazendo a mesma coisa acima so que com let:
-const s: 10 = 10; //eslint-disable-line
-const z = 10 as const;
+let s: 10 = 10; //eslint-disable-line
+let z = 10 as const; //eslint-disable-line
 
 //É bastante usado para evitar alteração de valores em objetos:
 const objeto = {
