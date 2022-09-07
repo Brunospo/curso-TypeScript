@@ -1,3 +1,3 @@
 # Intersecção de Generics
 
-Para fazer a intersecção de genrics utilizamos o simbolo &
+Para fazer a intersecção de generics utilizamos o simbolo &
