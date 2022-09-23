@@ -10,7 +10,7 @@ function decorator<T extends new (...args: any[]) => any>(constructor: T){
 			super(...args);
 
 			if (args[0] === 'azul'){
-				args[0] = 'vermelho';
+				args[0] = 'vermelho'; // n funciona
 			}
 
 			args[1] = this.inverteNome(args[1]);
